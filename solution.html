@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Angela's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Portfolio Practice | Moses</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <h1>Angela Yu's Portfolio</h1>
-  <h2>I'm a Web Developer</h2>
-  <hr />
-  <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-  <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-  <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-  <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-  <hr />
-  <a href="./public/about.html">About Me</a>
-  <a href="./public/contact.html">Contact Me</a>
-</body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="index.html">Moses</a>
+      <div class="nav-links">
+        <a href="index.html#projects">Projects</a>
+        <a href="myresume.html">Resume</a>
+        <a href="myhobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
 
+  <main class="page">
+    <section class="content-panel">
+      <p class="eyebrow">Practice Page</p>
+      <h1>HTML Portfolio Project</h1>
+      <p>
+        This page preserves the original portfolio exercise idea while replacing
+        missing starter links and assets with working local project content.
+      </p>
+      <img class="preview-image" src="Screenshot_26-10-2025_144842_appbrewery.github.io.jpeg" alt="Screenshot of an HTML portfolio practice example">
+      <a class="button primary" href="index.html">Return to Portfolio</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Moses. Built with HTML and CSS.</p>
+    <a href="https://github.com/Jimbol2023/html-portfolio">GitHub Repository</a>
+  </footer>
+</body>
 </html>

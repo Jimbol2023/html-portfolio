@@ -1,15 +1,90 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moses | HTML Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="logo" href="index.html">Moses</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="myresume.html">Resume</a>
+        <a href="myhobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Front-End Portfolio</p>
+        <h1>Building clean, responsive web pages with HTML and CSS.</h1>
+        <p>
+          Hi, I'm Moses. This portfolio highlights beginner-friendly web projects,
+          layout practice, and steady growth in front-end development.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="contact.html">Contact Me</a>
+        </div>
+      </div>
+      <img class="profile-image" src="IMG_E3246.JPG" alt="Portrait of Moses">
+    </section>
 
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+    <section class="section" aria-labelledby="about-heading">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2 id="about-heading">A practical portfolio for learning by building.</h2>
+      </div>
+      <p class="wide-text">
+        This project began as an HTML portfolio exercise and has been upgraded into
+        a polished personal site with accessible navigation, responsive sections,
+        and working internal pages.
+      </p>
+    </section>
 
-<!-- TODO 4: Add titles/subtitles etc. -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2 id="projects-heading">Featured Work</h2>
+      </div>
 
-<!-- TODO 5: Add a link to the project pages -->
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="goal.png" alt="Screenshot showing a completed portfolio goal layout">
+          <div>
+            <h3>Portfolio Goal Layout</h3>
+            <p>
+              A visual reference for building toward a complete portfolio page with
+              strong hierarchy and organized project sections.
+            </p>
+            <a href="goal.png">View Image</a>
+          </div>
+        </article>
 
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+        <article class="project-card">
+          <img src="Screenshot_26-10-2025_144842_appbrewery.github.io.jpeg" alt="Screenshot of an App Brewery portfolio example">
+          <div>
+            <h3>HTML Portfolio Practice</h3>
+            <p>
+              A beginner HTML project focused on links, images, headings, and
+              simple page structure.
+            </p>
+            <a href="solution.html">View Practice Page</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
 
-<!-- TODO 7: Add the Contact Me and About Me page links -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Moses. Built with HTML and CSS.</p>
+    <a href="https://github.com/Jimbol2023/html-portfolio">GitHub Repository</a>
+  </footer>
+</body>
+</html>
