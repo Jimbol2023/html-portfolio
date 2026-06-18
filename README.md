@@ -1,6 +1,6 @@
 # HTML Portfolio
 
-A clean, responsive beginner portfolio website for Moses. The project uses
+A clean, responsive beginner portfolio website for Olabode Jimoh. The project uses
 plain HTML and CSS to present a short introduction, featured project previews,
 resume highlights, hobbies, and contact links.
 
@@ -47,7 +47,7 @@ No installation or build step is required.
 
 ## Author
 
-Moses
+Olabode Jimoh
 
 ## Future Improvements
 
