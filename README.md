@@ -1,38 +1,49 @@
-# HTML Portfolio
+# Resume-Style HTML Portfolio
 
-A clean, responsive beginner portfolio website for Olabode Jimoh. The project uses
-plain HTML and CSS to present a short introduction, featured project previews,
-resume highlights, hobbies, and contact links.
+A clean resume-style personal portfolio website for Moses. The site presents a
+beginner tech resume profile with education, learning programs, projects,
+skills, and contact information in a responsive HTML/CSS layout.
 
 ## Features
 
-- Responsive homepage with modern portfolio layout
-- Accessible navigation shared across pages
-- Project cards with local image previews and descriptive alt text
-- Separate resume, hobbies, contact, and practice project pages
-- Beginner-friendly HTML and CSS with no build tools required
-- Improved spacing, typography, and mobile layout
+- Professional resume-style homepage
+- Responsive layout for desktop and mobile screens
+- Hero section with name, title, intro, portrait, and action links
+- About, education, courses, projects, skills, and contact sections
+- Accessible navigation and descriptive image alt text
+- Working internal pages for contact, resume snapshot, learning interests, and practice content
+- Beginner-friendly structure with no build tools required
 
 ## Tech Stack
 
 - HTML
 - CSS
 
+## Resume-Style Sections Included
+
+- Hero / Header
+- About Me
+- Education
+- Courses / Learning
+- Projects
+- Skills
+- Contact
+
 ## File Structure
 
 ```text
 html-portfolio/
-├── index.html
-├── contact.html
-├── myresume.html
-├── myhobbies.html
-├── solution.html
-├── styles.css
-├── goal.png
-├── IMG_E3246.JPG
-├── IMG_E3246 - Copy.JPG
-├── Screenshot_26-10-2025_144842_appbrewery.github.io.jpeg
-└── README.md
+|-- index.html
+|-- contact.html
+|-- myresume.html
+|-- myhobbies.html
+|-- solution.html
+|-- styles.css
+|-- goal.png
+|-- IMG_E3246.JPG
+|-- IMG_E3246 - Copy.JPG
+|-- Screenshot_26-10-2025_144842_appbrewery.github.io.jpeg
+`-- README.md
 ```
 
 ## How to Run Locally
@@ -47,12 +58,12 @@ No installation or build step is required.
 
 ## Author
 
-Olabode Jimoh
+Moses
 
 ## Future Improvements
 
-- Add more completed projects with live links
+- Add live links for each featured project
+- Replace the placeholder email with a real contact email
 - Add a downloadable resume PDF
-- Add a real contact email or form
 - Move images into a dedicated assets folder
-- Add a custom domain through GitHub Pages
+- Publish the site with GitHub Pages

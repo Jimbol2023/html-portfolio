@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moses | HTML Portfolio</title>
+  <title>Moses | Resume Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,10 +11,12 @@
     <nav class="nav" aria-label="Main navigation">
       <a class="logo" href="index.html">Moses</a>
       <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#learning">Learning</a>
         <a href="#projects">Projects</a>
-        <a href="myresume.html">Resume</a>
-        <a href="myhobbies.html">Hobbies</a>
-        <a href="contact.html">Contact</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </div>
     </nav>
   </header>
@@ -22,68 +24,162 @@
   <main>
     <section class="hero">
       <div class="hero-text">
-        <p class="eyebrow">Front-End Portfolio</p>
-        <h1>Building clean, responsive web pages with HTML and CSS.</h1>
+        <p class="eyebrow">Resume Portfolio</p>
+        <h1>Moses</h1>
+        <p class="title-line">Computer Science Student | Cybersecurity &amp; Web Development Learner</p>
         <p>
-          Hi, I'm Moses. This portfolio highlights beginner-friendly web projects,
-          layout practice, and steady growth in front-end development.
+          I am learning web development, cybersecurity, and AI automation by
+          building practical projects, practicing with modern tools, and improving
+          how I solve technical problems.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#projects">View Projects</a>
-          <a class="button secondary" href="contact.html">Contact Me</a>
+          <a class="button secondary" href="https://github.com/Jimbol2023">GitHub Profile</a>
         </div>
       </div>
       <img class="profile-image" src="IMG_E3246.JPG" alt="Portrait of Moses">
     </section>
 
-    <section class="section" aria-labelledby="about-heading">
+    <section class="section" id="about" aria-labelledby="about-heading">
       <div class="section-heading">
-        <p class="eyebrow">About</p>
-        <h2 id="about-heading">A practical portfolio for learning by building.</h2>
+        <p class="eyebrow">About Me</p>
+        <h2 id="about-heading">Student developer building a foundation in tech.</h2>
       </div>
       <p class="wide-text">
-        This project began as an HTML portfolio exercise and has been upgraded into
-        a polished personal site with accessible navigation, responsive sections,
-        and working internal pages.
+        I am following the Computer Science path at OCCC with an interest in
+        cybersecurity, React, web development, and AI tools. My goal is to keep
+        growing through focused coursework, hands-on projects, and consistent
+        practice with GitHub-based workflows.
       </p>
+    </section>
+
+    <section class="section split-section" id="education" aria-labelledby="education-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2 id="education-heading">Oklahoma City Community College</h2>
+      </div>
+      <div class="resume-panel">
+        <h3>AAS Computer Science</h3>
+        <p>Cyber / Information Security emphasis</p>
+      </div>
+    </section>
+
+    <section class="section" id="learning" aria-labelledby="learning-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Courses / Learning</p>
+        <h2 id="learning-heading">Current training and practice areas.</h2>
+      </div>
+      <div class="timeline-list">
+        <article>
+          <h3>CodePath WEB101</h3>
+          <p>HTML, CSS, JavaScript fundamentals, layout practice, and beginner web projects.</p>
+        </article>
+        <article>
+          <h3>CodePath WEB102 Intermediate Web Development</h3>
+          <p>React concepts, component-based UI, props, state, events, and project workflows.</p>
+        </article>
+        <article>
+          <h3>Applied AI Engineering</h3>
+          <p>Practical AI automation concepts, prompt workflows, and tool-supported development.</p>
+        </article>
+        <article>
+          <h3>Cybersecurity / Information Security Coursework</h3>
+          <p>Security foundations, information security concepts, and cyber career preparation.</p>
+        </article>
+        <article>
+          <h3>React and Vite Projects</h3>
+          <p>Modern front-end projects using JavaScript, React, Vite, and reusable components.</p>
+        </article>
+        <article>
+          <h3>Git and GitHub Practice</h3>
+          <p>Repository management, commits, pushes, README documentation, and project history.</p>
+        </article>
+      </div>
     </section>
 
     <section class="section" id="projects" aria-labelledby="projects-heading">
       <div class="section-heading">
         <p class="eyebrow">Projects</p>
-        <h2 id="projects-heading">Featured Work</h2>
+        <h2 id="projects-heading">Selected beginner web development work.</h2>
       </div>
 
       <div class="project-grid">
         <article class="project-card">
-          <img src="goal.png" alt="Screenshot showing a completed portfolio goal layout">
-          <div>
-            <h3>Portfolio Goal Layout</h3>
-            <p>
-              A visual reference for building toward a complete portfolio page with
-              strong hierarchy and organized project sections.
-            </p>
-            <a href="goal.png">View Image</a>
-          </div>
+          <h3>WEB102 Community Board</h3>
+          <p>
+            A React project focused on reusable cards, organized data, and clean
+            presentation of community resources.
+          </p>
+          <a href="https://github.com/Jimbol2023">View on GitHub</a>
         </article>
 
         <article class="project-card">
-          <img src="Screenshot_26-10-2025_144842_appbrewery.github.io.jpeg" alt="Screenshot of an App Brewery portfolio example">
-          <div>
-            <h3>HTML Portfolio Practice</h3>
-            <p>
-              A beginner HTML project focused on links, images, headings, and
-              simple page structure.
-            </p>
-            <a href="solution.html">View Practice Page</a>
-          </div>
+          <h3>WEB102 Flashcards</h3>
+          <p>
+            A study app project practicing state, events, conditional rendering,
+            and user interaction in React.
+          </p>
+          <a href="https://github.com/Jimbol2023">View on GitHub</a>
         </article>
+
+        <article class="project-card">
+          <h3>WEB102 On My Grind</h3>
+          <p>
+            A barista quiz app using React, Vite, controlled form inputs, and
+            visual feedback for correct and incorrect answers.
+          </p>
+          <a href="https://github.com/Jimbol2023/web102-unit3-on-my-grind">View Repository</a>
+        </article>
+
+        <article class="project-card">
+          <h3>HTML Portfolio</h3>
+          <p>
+            This resume-style personal site built with semantic HTML, responsive
+            CSS, accessible links, and project documentation.
+          </p>
+          <a href="https://github.com/Jimbol2023/html-portfolio">View Repository</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2 id="skills-heading">Technical skills in active development.</h2>
+      </div>
+      <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Vite</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Cybersecurity basics</li>
+        <li>AI tools</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-panel">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading">Connect with Moses</h2>
+          <p>
+            GitHub is the best place to view current projects and ongoing learning.
+            Email can be added here when available.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a class="button primary" href="https://github.com/Jimbol2023">GitHub</a>
+          <a class="button secondary" href="mailto:email@example.com">email@example.com</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2026 Moses. Built with HTML and CSS.</p>
+    <p>&copy; 2026 Moses. Resume portfolio built with HTML and CSS.</p>
     <a href="https://github.com/Jimbol2023/html-portfolio">GitHub Repository</a>
   </footer>
 </body>
