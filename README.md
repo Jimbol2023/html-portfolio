@@ -1,6 +1,6 @@
 # Resume-Style HTML Portfolio
 
-A clean resume-style personal portfolio website for Moses. The site presents a
+A clean resume-style personal portfolio website for Olabode Jimoh. The site presents a
 beginner tech resume profile with education, learning programs, projects,
 skills, and contact information in a responsive HTML/CSS layout.
 
@@ -58,7 +58,7 @@ No installation or build step is required.
 
 ## Author
 
-Moses
+Olabode Jimoh
 
 ## Future Improvements
 
