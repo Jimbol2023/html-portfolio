@@ -1,35 +1,41 @@
-# Resume-Style HTML Portfolio
+# Olabode Moses Jimoh Resume Portfolio
 
-A clean resume-style personal portfolio website for Olabode Jimoh. The site presents a
-beginner tech resume profile with education, learning programs, projects,
-skills, and contact information in a responsive HTML/CSS layout.
+A clean, responsive resume-style portfolio website for Olabode Moses Jimoh. The site presents education, learning areas, featured projects, technical skills, and contact information in a beginner-friendly HTML/CSS structure.
 
-## Features
-
-- Professional resume-style homepage
-- Responsive layout for desktop and mobile screens
-- Hero section with name, title, intro, portrait, and action links
-- About, education, courses, projects, skills, and contact sections
-- Accessible navigation and descriptive image alt text
-- Working internal pages for contact, resume snapshot, learning interests, and practice content
-- Beginner-friendly structure with no build tools required
-
-## Tech Stack
+## Technologies Used
 
 - HTML
 - CSS
 
-## Resume-Style Sections Included
+## Features
 
-- Hero / Header
-- About Me
-- Education
-- Courses / Learning
-- Projects
-- Skills
-- Contact
+- Professional online resume homepage
+- Responsive layout for mobile, tablet, and desktop screens
+- Preserved profile image from the original portfolio
+- About, education, learning areas, featured projects, skills, and contact sections
+- Skills grouped by Front-End, Tools, Cybersecurity, and AI Automation
+- Accessible navigation, descriptive image alt text, and clear contact links
+- Internal pages for contact, resume snapshot, learning interests, and practice content
+- No build tools or JavaScript required
 
-## File Structure
+## Screenshots
+
+Add screenshots here after publishing or opening the site locally.
+
+```text
+Screenshot placeholder:
+- Homepage hero section
+- Featured projects section
+- Contact section
+```
+
+## How to View
+
+Open `index.html` in a web browser.
+
+No installation, package manager, or build step is required.
+
+## Project Structure
 
 ```text
 html-portfolio/
@@ -46,24 +52,12 @@ html-portfolio/
 `-- README.md
 ```
 
-## How to Run Locally
+## Contact
 
-Open `index.html` in a web browser.
+- Email: [sabiu_jimoh@yahoo.com](mailto:sabiu_jimoh@yahoo.com)
+- Phone: [214-830-8467](tel:2148308467)
+- GitHub: [https://github.com/Jimbol2023](https://github.com/Jimbol2023)
 
-No installation or build step is required.
-
-## GitHub Repository
+## Repository
 
 [https://github.com/Jimbol2023/html-portfolio](https://github.com/Jimbol2023/html-portfolio)
-
-## Author
-
-Olabode Jimoh
-
-## Future Improvements
-
-- Add live links for each featured project
-- Replace the placeholder email with a real contact email
-- Add a downloadable resume PDF
-- Move images into a dedicated assets folder
-- Publish the site with GitHub Pages

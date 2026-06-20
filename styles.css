@@ -1,12 +1,13 @@
 :root {
-  --bg: #f6f8fb;
+  --bg: #f4f7fa;
   --surface: #ffffff;
   --text: #18212f;
-  --muted: #526173;
-  --accent: #0f6b7b;
-  --accent-dark: #084b57;
+  --muted: #4e5d70;
+  --accent: #0a6f72;
+  --accent-dark: #074d50;
   --line: #d9e1ea;
   --soft: #eaf3f5;
+  --focus: #b45309;
 }
 
 * {
@@ -36,6 +37,12 @@ a:focus {
   text-decoration: underline;
 }
 
+a:focus-visible,
+.button:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -61,7 +68,8 @@ img {
 
 .logo {
   color: var(--text);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
+  line-height: 1.2;
 }
 
 .nav-links {
@@ -83,9 +91,10 @@ img {
 
 .hero h1,
 .page h1 {
-  font-size: 4.25rem;
-  line-height: 1;
+  font-size: clamp(2.55rem, 8vw, 4.25rem);
+  line-height: 1.04;
   margin: 0 0 1rem;
+  max-width: 900px;
 }
 
 .title-line {
@@ -130,6 +139,7 @@ img {
   border-radius: 6px;
   display: inline-block;
   padding: 0.75rem 1rem;
+  text-align: center;
 }
 
 .button.primary {
@@ -193,13 +203,15 @@ img {
 .resume-panel,
 .project-card,
 .content-panel,
-.timeline-list article {
+.timeline-list article,
+.skill-group {
   padding: 1.35rem;
 }
 
 .resume-panel h3,
 .timeline-list h3,
-.project-card h3 {
+.project-card h3,
+.skill-group h3 {
   font-size: 1.25rem;
   line-height: 1.2;
   margin: 0 0 0.5rem;
@@ -219,22 +231,34 @@ img {
   margin-top: 1.5rem;
 }
 
-.skill-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  list-style: none;
+.skills-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   margin: 1.5rem 0 0;
+}
+
+.skill-group {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.skill-group ul {
+  display: grid;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
 
-.skill-list li {
+.skill-group li {
   background: var(--soft);
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 6px;
   color: var(--accent-dark);
   font-weight: 800;
-  padding: 0.55rem 0.85rem;
+  padding: 0.55rem 0.7rem;
 }
 
 .contact-panel {
@@ -288,6 +312,12 @@ img {
   margin: 0;
 }
 
+@media (max-width: 960px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 760px) {
   .nav {
     align-items: flex-start;
@@ -303,6 +333,7 @@ img {
   .split-section,
   .timeline-list,
   .project-grid,
+  .skills-grid,
   .resume-grid,
   .hobby-list,
   .contact-panel {
@@ -313,13 +344,13 @@ img {
     padding-top: 3rem;
   }
 
-  .hero-text {
-    max-width: 21.5rem;
+  .hero-actions,
+  .contact-links {
+    width: 100%;
   }
 
-  .hero h1,
-  .page h1 {
-    font-size: 2.6rem;
+  .button {
+    width: 100%;
   }
 
   .title-line {
